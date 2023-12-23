@@ -62,9 +62,15 @@ export default function Home() {
 
           {/* services section */}
           <section className="w-full bg-[#0D0C2B] rounded-[20px] flex flex-col gap-8 xl:gap-16 xl:pb-8 p-4 py-7 pb-16 xl:h-[600px] xl:justify-between">
-            <h1 className="text-white text-[17px] font-semibold w-[200px] xl:text-[35px] xl:w-[400px]">
-              Where seamless transactions give you the ultimate flexibility
-            </h1>
+            <div className="flex flex-col xl:flex-row xl:items-start xl:justify-between">
+    <h1 className="text-white text-[17px] font-semibold w-[200px] xl:text-[35px] xl:w-[400px] mb-2 xl:mb-0">
+      Where seamless transactions give you the ultimate flexibility
+    </h1>
+    {/* Button for desktop view */}
+    <button className="hidden xl:flex items-center border border-[#fff] justify-center text-white py-2 px-6 rounded-[10px]">
+      Get Started <ArrowRight className="w-[24px] h-[24px]" color="#fff" />
+    </button>
+  </div>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-10">
               <div
                 style={{
