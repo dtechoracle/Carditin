@@ -60,7 +60,7 @@ const ElectricBillsPage = () => {
       <section className="w-full px-2 h-full flex flex-col gap-7 lg:px-[6rem] xl:gap-16">
         <section className="grid grid-cols-1 md:mt-60 gap-y-9 xl:gap-20">
           <div className="flex flex-col gap-9 md:flex-row md:justify-between md:items-center">
-            <div className="flex flex-col gap-5 md:w-[41%]">
+            <div className="flex flex-col gap-5 md:w-[41%] md:order-2">
               <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
                 Stay Powered Up
               </h1>
@@ -80,7 +80,7 @@ const ElectricBillsPage = () => {
             <Image
               src={"/assets/stay.png"}
               alt=""
-              className="md:w-[281px] w-full h-[230px] rounded-t-[20px] md:h-[470px] md:w-[40%]"
+              className="md:w-[281px] w-full h-[230px] rounded-t-[20px] md:h-[470px] md:order-1 md:w-[40%]"
               width={100}
               height={200}
             />

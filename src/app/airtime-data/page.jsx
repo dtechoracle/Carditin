@@ -60,11 +60,11 @@ const AirtimeAndDataPage = () => {
 
       {/* Logo section */}
       <section className="w-full px-2 h-full flex flex-col gap-7 md:px-[6rem] xl:gap-16">
-        <section className="grid grid-cols-1 gap-y-9 xl:gap-20">
+        <section className="grid grid-cols-1 md:mt-24 gap-y-9 xl:gap-20">
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between ">
             <div className="flex flex-col gap-5 md:w-[40%]">
               <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-                Find all Nigerian mobile networks on Carditin
+                Find all Nigerian <br /> mobile networks <br /> on Carditin
               </h1>
               <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
                 Buy Airtel, Glo, MTN and 9Mobile airtime and internet data
@@ -89,9 +89,10 @@ const AirtimeAndDataPage = () => {
             {/* </div> */}
           </div>
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between">
-  <div className="flex flex-col gap-5 md:w-[40%]">
+  {/* Text section */}
+  <div className="flex flex-col gap-5 md:w-[40%] md:order-2">
     <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-      Get your airtime top-up in a few seconds.
+      Get your airtime top-up <br />in a few seconds.
     </h1>
     <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
       You’ll get your airtime or data soon after you complete your
@@ -104,19 +105,22 @@ const AirtimeAndDataPage = () => {
       <ArrowRight className="text-[#3F37C9]" />
     </button>
   </div>
+  
+  {/* Image section */}
   <Image
     src={"/assets/seconds.png"}
     alt=""
-    className="md:w-[40%] w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:w-[40%]"
+    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:w-[40%] md:order-1"
     width={250}
     height={200}
   />
 </div>
 
+
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between ">
             <div className="flex flex-col gap-5 md:w-[40%]">
               <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-                Scheduled Airtime & Data payment
+                Scheduled Airtime & <br />Data payment
               </h1>
               <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
                 Lorem ipsum dolor sit amet consectetur. Mauris purus diam diam

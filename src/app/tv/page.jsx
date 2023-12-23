@@ -50,7 +50,7 @@ const TVPage = () => {
         </div>
         <div className="md:w-[40%]">
           <Image
-            src={"/assets/Frame4.png"}
+            src={"/assets/tve.svg"}
             alt="Home"
             width={320}
             height={500}
@@ -65,7 +65,7 @@ const TVPage = () => {
           <div className="flex flex-col w-full gap-9 md:flex-row md:items-center md:justify-between">
             <div className="flex flex-col gap-5 md:w-[40%] w-full">
               <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-                Streamline Your Entertainment
+                Streamline Your <br /> Entertainment
               </h1>
               <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
                 Easily pay your TV bills with a few clicks, ensuring
@@ -89,7 +89,7 @@ const TVPage = () => {
             {/* </div> */}
           </div>
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between">
-  <div className="flex flex-col gap-5 md:w-[40%]">
+  <div className="flex flex-col gap-5 md:w-[40%] md:order-2">
     <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
       Timely Reminders
     </h1>
@@ -107,7 +107,7 @@ const TVPage = () => {
   <Image
     src={"/assets/time.png"}
     alt=""
-    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[470px] md:w-[40%]"
+    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[470px] md:w-[40%] md:order-1"
     width={250}
     height={200}
   />

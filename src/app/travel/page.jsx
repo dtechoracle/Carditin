@@ -71,7 +71,7 @@ const TravelPage = () => {
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between">
             <div className="flex flex-col gap-5 md:w-[40%]">
               <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-                All-in-One Travel Help
+                All-in-One Travel <br />Help
               </h1>
               <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
                 Easily plan your trip by booking flights, hotels, and
@@ -96,7 +96,7 @@ const TravelPage = () => {
             {/* </div> */}
           </div>
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between">
-  <div className="flex flex-col gap-5 md:w-[40%]">
+  <div className="flex flex-col gap-5 md:w-[40%] md:order-2">
     <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
       Great Deals
     </h1>
@@ -114,7 +114,7 @@ const TravelPage = () => {
   <Image
     src={"/assets/deal.png"}
     alt=""
-    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:w-[40%]"
+    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:w-[40%] md:order-1"
     width={250}
     height={200}
   />
@@ -138,7 +138,7 @@ const TravelPage = () => {
 
             {/* <div className="xl:mx-auto"> */}
             <Image
-              src={"/assets/support2.png"}
+              src={"/assets/travel-support.svg"}
               alt=""
               className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:w-[40%]"
               width={250}

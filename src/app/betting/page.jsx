@@ -48,7 +48,7 @@ const FundBettingPage = () => {
         </div>
         <div className="md:w-[40%]">
           <Image
-            src={"/assets/frame4.png"}
+            src={"/assets/BettingImg.svg"}
             alt="Home"
             width={320}
             height={500}
@@ -88,7 +88,7 @@ const FundBettingPage = () => {
             {/* </div> */}
           </div>
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between">
-  <div className="flex flex-col gap-5 md:w-[40%]">
+  <div className="flex flex-col gap-5 md:w-[40%] md:order-2">
     <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
       Exclusive Bonuses
     </h1>
@@ -106,7 +106,7 @@ const FundBettingPage = () => {
   <Image
     src={"/assets/bonus.png"}
     alt=""
-    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:w-[40%]"
+    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:order-1 md:w-[40%]"
     width={250}
     height={200}
   />

@@ -261,7 +261,7 @@ export default function Home() {
           <section className="w-full bg-white rounded-[20px] px-3 py-4 flex flex-col gap-14 md:flex-row md:px-6 md:py-9">
             <div className="flex flex-col md:justify-center gap-4 xl:w-[50%] xl:gap-12">
               <h1 className="text-[20px] text-[#09081D] font-semibold xl:text-[55px]">
-                Download the Carditin App & Get Started for Free! 🎉✌️
+                Download the Carditin App & Get Started for Free! ✌️
               </h1>
               <p className="text-[10px] text-[#161447CC] font-normal xl:text-[20px]">
                 CARDITIN takes care of your travel expenses, creating memorable
@@ -318,7 +318,7 @@ export default function Home() {
                 <h1 className="text-[16px] text-[#09081D] font-bold w-[230px] xl:text-[27px] xl:w-[400px]">
                   Embrace the Thrill of Fund Betting Effortlessly.
                 </h1>
-                <p className="text-[10px] text-[#09081D] font-bold w-full xl:text-[15px]">
+                <p className="text-[10px] text-[#09081D] w-full xl:text-[15px]">
                   CARDITIN facilitates secure transactions for your betting
                   ventures, ensuring a smooth and secure experience.
                 </p>
@@ -484,11 +484,11 @@ export default function Home() {
           {/* join section */}
 
           <section
-            style={{
-              background: "radial-gradient(circle, #4642CF, #644AEE, #003188)",
-            }}
             className="w-full flex flex-col justify-center items-center py-9 px-3 gap-8 rounded-[20px] xl:h-[300px]"
           >
+            <section style={{
+              background: "url('./assets/join.svg')",
+            }} className="w-full h-[80%] p-16">
             <div className="text-center flex flex-col gap-3">
               <h1 className="text-white text-[25px] font-normal xl:text-[50px]">
                 Join Carditin Today
@@ -524,8 +524,9 @@ export default function Home() {
                   height={40}
                   className="w-[100px] h-[40px]"
                 />
-              </Link>
-            </div>
+                </Link>
+                </div>
+            </section>
           </section>
         </section>
       </section>

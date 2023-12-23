@@ -11,55 +11,54 @@ const EducationPage = () => {
     <section className="w-full h-full bg-[#F5F7FA] pt-10">
       {/* hero section */}
       <section className="w-full flex flex-col justify-between md:items-start px-2 gap-14 md:px-[6rem] mb-20">
-        <div className="w-full bg-[#E3E2F7] rounded-[20px] px-3 py-4 flex flex-col md:flex-row gap-14 md:px-6 md:py-9 md:items-center">
-          <div className="flex flex-col gap-4 md:w-[60%]">
-            <h1 className="text-[30px] text-[#09081D] font-[700] md:text-[40px]">
-              Invest in{" "}
-              <span className="text-[#3F37C9] partner">knowledge</span> without
-              Stress
-            </h1>
-            <p className="text-[12px] text-[#161447CC] font-normal xl:text-[20px]">
-              CARDITIN supports your educational endeavors by effortlessly
-              managing your tuition payments.
-            </p>
-          </div>
-          <div className="md:w-[40%] h-full">
-            <Image
-              src={"/assets/education.png"}
-              alt=""
-              width={250}
-              height={200}
-              className="w-full  h-[250px] md:h-full"
-            />
-          </div>
-        </div>
-        <div className="grid grid-cols-2 gap-4 xl:w-[50%]">
-            <Link
-              href={"#"}
-              className="col-span-1 border-[#CCCCD0] border rounded-[10px] flex justify-center items-center py-2"
-            >
-              <Image
-                src={"/assets/apple.svg"}
-                alt=""
-                width={140}
-                height={40}
-                className="w-[100px] h-[40px]"
-              />
-            </Link>
-            <Link
-              href={"#"}
-              className="col-span-1 border-[#CCCCD0] border rounded-[10px] flex justify-center items-center py-2"
-            >
-              <Image
-                src={"/assets/google.svg"}
-                alt=""
-                width={140}
-                height={40}
-                className="w-[100px] h-[40px]"
-              />
-            </Link>
-          </div>
-      </section>
+  <div className="relative w-full bg-[#E3E2F7] rounded-[20px] md:mt-40 px-3 py-4 flex flex-col md:flex-row gap-14 md:px-6 md:py-9 md:items-center">
+  <div className="flex flex-col gap-4 md:w-[60%]">
+    <h1 className="text-[30px] text-[#09081D] font-[700] md:text-[40px]">
+      Invest in{" "}
+      <span className="text-[#3F37C9] partner">knowledge</span> <br /> without Stress
+    </h1>
+    <p className="text-[12px] text-[#161447CC] font-normal xl:text-[20px]">
+      CARDITIN supports your educational endeavors by effortlessly managing your tuition payments.
+    </p>
+  </div>
+  <div className="md:w-[40%] h-full">
+    <Image
+      src={"/assets/education.png"}
+      alt=""
+      width={250}
+      height={150}
+      className="w-[50%] h-[200px] md:h-[380px] absolute top-[-42%] right-0"
+    />
+  </div>
+  </div>
+  <div className="grid grid-cols-2 gap-4 xl:w-[50%]">
+    <Link
+      href={"#"}
+      className="col-span-1 border-[#CCCCD0] border rounded-[10px] flex justify-center items-center py-2"
+    >
+      <Image
+        src={"/assets/apple.svg"}
+        alt=""
+        width={140}
+        height={40}
+        className="w-[100px] h-[40px]"
+      />
+    </Link>
+    <Link
+      href={"#"}
+      className="col-span-1 border-[#CCCCD0] border rounded-[10px] flex justify-center items-center py-2"
+    >
+      <Image
+        src={"/assets/google.svg"}
+        alt=""
+        width={140}
+        height={40}
+        className="w-[100px] h-[40px]"
+      />
+    </Link>
+  </div>
+</section>
+
 
       {/* Logo section */}
       <section className="w-full px-2 h-full flex flex-col gap-7 md:px-[6rem] xl:gap-16">
@@ -67,7 +66,7 @@ const EducationPage = () => {
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between">
             <div className="flex flex-col gap-5 md:w-[40%]">
               <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-                Easy Payment Process
+                Easy Payment <br />Process
               </h1>
               <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
                 Make paying your school fees a breeze with our safe and
@@ -92,9 +91,9 @@ const EducationPage = () => {
             {/* </div> */}
           </div>
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between">
-  <div className="flex flex-col gap-5 md:w-[40%]">
+  <div className="flex flex-col gap-5 md:w-[40%] md:order-2">
     <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-      Multiple Payment Options
+      Multiple Payment <br />Options
     </h1>
     <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
       Choose from various payment methods, including Credit/Debit
@@ -110,7 +109,7 @@ const EducationPage = () => {
   <Image
     src={"/assets/vcard.png"}
     alt=""
-    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:w-[40%]"
+    className="w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:order-1 md:w-[40%]"
     width={250}
     height={200}
   />

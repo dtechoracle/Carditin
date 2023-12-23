@@ -109,7 +109,7 @@ const GiftCardPage = () => {
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between ">
             <div className="flex flex-col gap-5 md:w-[40%]">
               <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-                Trade Variety, Trade Value!
+                Trade Variety, <br /> Trade Value!
               </h1>
               <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
                 Whether it is iTunes, Amazon, or more, Carditin is your go-to
@@ -134,9 +134,9 @@ const GiftCardPage = () => {
             {/* </div> */}
           </div>
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between">
-  <div className="flex flex-col gap-5 md:w-[40%]">
+  <div className="flex flex-col gap-5 md:w-[40%] md:order-2">
     <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-      Maximize Your Returns with Carditin!
+      Maximize Your Returns <br />with Carditin!
     </h1>
     <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
       Experience a user-friendly platform designed to help you
@@ -152,7 +152,7 @@ const GiftCardPage = () => {
   <Image
     src={"/assets/return.png"}
     alt=""
-    className="md:w-[40%] w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:w-[40%]"
+    className="md:w-[40%] w-full h-[230px] md:object-contain rounded-t-[20px] md:h-[370px] md:order-1 md:w-[40%]"
     width={250}
     height={200}
   />
@@ -161,7 +161,7 @@ const GiftCardPage = () => {
           <div className="flex flex-col gap-9 md:flex-row md:items-center md:justify-between ">
             <div className="flex flex-col gap-5 md:w-[40%]">
               <h1 className="text-[18px] text-[#09081D] font-bold xl:text-[25px]">
-                No More Unused Gift Cards – Get Cash Now
+                No More Unused Gift <br />Cards – Get Cash Now
               </h1>
               <p className="text-[12px] text-[#09081D] font-normal xl:text-[17px]">
                 Do not let your gift cards go to waste. Trade them for cash on
